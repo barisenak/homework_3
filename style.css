@@ -124,14 +124,16 @@
 
 .hover:hover {
     cursor: pointer; 
+    background-color: black;
 }
 
 .background {
     background-color: black;
-    padding: 39px 543px 15px 541px;
+    padding: 39px 0px 15px 0px;
+    margin: 0 auto;
 }
 
-.facebook {
+.block__items {
     fill: wheat;
     width: 35px;
     height: 23px;
