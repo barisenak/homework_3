@@ -36,21 +36,21 @@
 }
 
 .light {
-    background-image: url(light.png);
+    background-image: url(/image/light.png);
     background-repeat: no-repeat;
     background-position: center;
 
 }
 
 .keyboard {
-    background-image: url(keyboard.png);
+    background-image: url(/image/keyboard.png);
     background-repeat: no-repeat;
     background-position: center;
 
 }
 
 .storm {
-    background-image: url(storm.png);
+    background-image: url(/image/storm.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30px 30px;
@@ -83,18 +83,18 @@
 }
 
 .bottom {
-    background-image: url(city.png);
+    background-image: url(/image/city.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     background-size: cover;
-    /* position: fixed; */
+    padding-top: 76px;
 }
 
 .text__stylish {
     font-size: 36px;
     color: #FFFFFF;
-    padding: 76px auto 26px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .line2 {
@@ -114,15 +114,37 @@
 
 .button {
     width: 135px;
-    height: 32px;
+    height: 42px;
     margin: 0px auto 63px;
+    color: white;
+    font-size: 15px;
+    background: transparent;
+    border-color: white;
 }
 
 .hover:hover {
     cursor: pointer; 
 }
 
-.contacts {
+.background {
     background-color: black;
+    padding: 39px 543px 15px 541px;
+}
 
+.facebook {
+    fill: wheat;
+    width: 35px;
+    height: 23px;
+    margin: 0px 5px;
+}
+
+.end {
+    margin-bottom: 15px;
+}
+
+.text2 {
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    font-size: 12px;
+    
 }
